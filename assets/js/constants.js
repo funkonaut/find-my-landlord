@@ -11,14 +11,14 @@ var unitColumn = "Unit Count from Department of Buildings";
 var relativeSizeColumn = "Relative Size";
 
 // Database reference
-var databaseCollectionName = "features-08-09-2020-05-48-PM";
+var databaseCollectionName = "features";
 // JSON search
 var searchIndex = "https://find-my-landlord.nyc3.cdn.digitaloceanspaces.com/search-index-11-30-2020-06-30-PM.json";
 // Map tiles
-var tiles = "https://find-my-landlord.nyc3.cdn.digitaloceanspaces.com/features-08-09-2020-05-48-PM/{z}/{x}/{y}.pbf";
+//var tiles = "https://find-my-landlord.nyc3.cdn.digitaloceanspaces.com/features-08-09-2020-05-48-PM/{z}/{x}/{y}.pbf";
 
 // Mapbox key
-mapboxgl.accessToken = "pk.eyJ1IjoibHVjaWVubGl6bGVwaW9yeiIsImEiOiJja2M2YTN3dG8wYmZlMnp0ZXBzZzJuM3JsIn0.n6bA8boNS3LQW1izwa6MKg";
+mapboxgl.accessToken = "pk.eyJ1IjoiY3Jjb3JyZWxsIiwiYSI6ImNrZG1ranc4dDE5ODUycGxqeGNnYTIzcGsifQ.scBxw_xzNgfp0Uc7rv56vQ";
 
 // Colors
 var dsaRed = "#ec1f27";

@@ -1,10 +1,10 @@
 // Set map defaults
 var map = new mapboxgl.Map({
 		container: "map",
-		style: "mapbox://styles/lucienlizlepiorz/ckd61fpi915jk1ioyhcpvd10y",
-		center: [-87.6441, 41.8846], // Haymarket Square
-		zoom: 12,
-		attributionControl: false
+		style: "mapbox://styles/mapbox/dark-v10",
+		center: [-97.735, 30.281], // starting lon lat
+		zoom: 13, //depend on the area you want to cover
+		attributionControl: false //add this in later
 	});
 
 // Create legend
@@ -60,7 +60,7 @@ map.on("load", function() {
 			map.addSource("propertyData", {
 				type: "vector",
 				maxzoom: 14, // Allows overzoom
-				tiles: [tiles],
+				url: "mapbox://crcorrell.2mu3gn8n",
 				promoteId: propertyIndexColumn
 			});
 			
@@ -68,7 +68,7 @@ map.on("load", function() {
 				"id": "allProperties",
 				"type": "circle",
 				"source": "propertyData",
-				"source-layer": "features",
+				"source-layer": "features-d6xoey",
 				"paint": {
 					"circle-radius": defaultRadius,
 					"circle-color": defaultColors,
