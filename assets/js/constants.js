@@ -13,7 +13,7 @@ var relativeSizeColumn = "Relative Size";
 // Database reference
 var databaseCollectionName = "features";
 // JSON search
-var searchIndex = "https://github.com/funkonaut/find-my-landlord/search_index_10_1.json?raw=true";
+var searchIndex = "https://github.com/funkonaut/find-my-landlord/search_index_10_1.json";
 // Map tiles
 //var tiles = "https://find-my-landlord.nyc3.cdn.digitaloceanspaces.com/features-08-09-2020-05-48-PM/{z}/{x}/{y}.pbf";
 
